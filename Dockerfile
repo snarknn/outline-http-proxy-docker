@@ -14,4 +14,4 @@ ENV KEY=""
 
 EXPOSE 8080
 
-CMD /app/http2transport -transport "$KEY" -localAddr localhost:8080
+CMD /app/http2transport -transport "$KEY" -localAddr 0.0.0.0:8080
